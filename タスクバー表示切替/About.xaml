@@ -1,0 +1,18 @@
+﻿<Window x:Class="タスクバー表示切替.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:タスクバー表示切替"
+        mc:Ignorable="d"
+        Title="タスクバー表示切替 について" Height="154" Width="349.349">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="193*"/>
+            <ColumnDefinition Width="71*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="タスクバー表示切替" FontSize="20" HorizontalAlignment="Left" Margin="88,20,0,0" VerticalAlignment="Top" Width="174" Grid.ColumnSpan="2"/>
+        <Label Content="バージョン:1.2" HorizontalAlignment="Left" Margin="138,62,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="1.469,0.797"/>
+        <Label Content="Copyright © 2020 taiseiue All Right Reserved." HorizontalAlignment="Left" Margin="57,93,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="255"/>
+    </Grid>
+</Window>
